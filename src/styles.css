@@ -1,1 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
+.list-group-item{
+  border: none;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.mat-form-field-wrapper{
+  padding-bottom: 0 !important;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-flex{
+  height: 43px !important;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline{
+  background-color: #FFFFFF !important;
+  border-radius: 5px !important;
+}
+
+th, td{
+  border: 2px solid !important;
+}
+
+.mat-dialog-container{
+  padding: 0px !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}
+
+.sucess-snackbar{
+  background-color: #5EBA7D;
+  color: #000000;
+}
+.error-snackbar{
+  background-color: #C70101;
+  color: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #5c5c5c;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #dbdbdb;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #cfcfcf;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

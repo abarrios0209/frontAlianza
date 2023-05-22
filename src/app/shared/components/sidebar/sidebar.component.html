@@ -1,0 +1,8 @@
+<img src="../../../../assets/images/iconAlianza.jpg" alt="Icono Alianza">
+
+<ul class="list-group mt-4">
+  <li class="list-group-item" *ngFor="let item of list" routerLink={{item.router}} routerLinkActive="activo" style="cursor: pointer;">
+      {{item.nameItem}}
+  </li>
+
+</ul>

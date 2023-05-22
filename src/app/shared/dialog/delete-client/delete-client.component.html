@@ -1,0 +1,23 @@
+<div class="p-sm-4 modalDelete d-flex flex-column bd-highlight">
+  <div class="p-sm-2 bd-highlight">
+    <h1>Delete User</h1>
+    <hr>
+  </div>
+  <div class="p-2 bd-highlight">
+    <h3>Do you want to delete user?</h3>
+  </div>
+  <div class="p-2 bd-highlight">
+    <div mat-dialog-actions class="d-flex flex-row-reverse bd-highlight">
+      <div class="p-2 bd-highlight">
+        <button class="btn btn-danger" (click)="deleteClient()">
+          Delete
+        </button>
+      </div>
+      <div class="p-2 bd-highlight">
+        <button [mat-dialog-close]="" class="btn btn-secondary" >
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

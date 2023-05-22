@@ -1,0 +1,59 @@
+.inputSearch{
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 10px 0 0 10px;
+}
+
+.buttonSearch{
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 0 10px 10px 0;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.dataSearchAdvanced{
+  border:1px solid;
+  border-radius: 10px;
+  background-color: #A9C9D6;
+  width:56%;
+}
+
+.inputSearchAdvanced{
+  width: 330px;
+}
+
+th.mat-header-cell{
+  text-align: center;
+  font-size: 20px;
+}
+
+td.mat-row, td.mat-cell{
+  text-align: center;
+
+}
+
+.headerCells{
+  font-size: 20px;
+  padding-left: 24px;
+}
+
+.dialogStyles{
+  padding: 0 !important;
+}
+
+@media (max-width: 780px) {
+  .dataSearchAdvanced{
+    width: 100%;
+  }
+  .inputSearchAdvanced{
+    width: 100%;
+  }
+}

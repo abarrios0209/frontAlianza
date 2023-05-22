@@ -1,0 +1,80 @@
+<div class="bd-highlight p-1 dataSearchAdvanced">
+  <div class="d-flex flex-row bd-highlight p-3">
+      <h2>{{nameModal}}</h2>
+  </div>
+  <hr>
+  <div class="d-flex flex-row bd-highlight">
+    <div class="bd-highlight">
+      <div class="d-flex flex-column bd-highlight p-3">
+        <form [formGroup]="dataSearch">
+          <div class="bd-highlight">
+            <div class="d-flex flex-row bd-highlight">
+              <div class="bd-highlight d-flex d-flex justify-content-center align-items-center me-5 p-1">Name</div>
+              <div class="bd-highlight">
+                <mat-form-field appearance="outline" class="inputSearchAdvanced">
+                  <mat-label>
+                    Name
+                  </mat-label>
+                  <input matInput formControlName="businessId" />
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+          <div class="bd-highlight">
+            <div class="d-flex flex-row bd-highlight">
+              <div class="bd-highlight d-flex d-flex justify-content-center align-items-center me-5 p-1">Phone</div>
+              <div class="bd-highlight">
+                <mat-form-field appearance="outline" class="inputSearchAdvanced">
+                  <mat-label>Phone</mat-label>
+                  <input matInput formControlName="phone" />
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+          <div class="bd-highlight">
+            <div class="d-flex flex-row bd-highlight">
+              <div class="bd-highlight d-flex d-flex justify-content-center align-items-center me-5 p-1">E-mail</div>
+              <div class="bd-highlight">
+                <mat-form-field appearance="outline" class="inputSearchAdvanced">
+                  <mat-label>E-mail</mat-label>
+                  <input matInput formControlName="email" />
+                </mat-form-field></div>
+            </div>
+          </div>
+          <div class="bd-highlight">
+            <div class="d-flex flex-row bd-highlight">
+              <div class="bd-highlight d-flex d-flex justify-content-center align-items-center me-4 p-1">Start Date</div>
+              <div class="bd-highlight">
+                <mat-form-field appearance="outline" class="inputSearchAdvanced">
+                  <input type="date" matInput formControlName="startDate" />
+                </mat-form-field></div>
+            </div>
+          </div>
+          <div class="bd-highlight">
+            <div class="d-flex flex-row bd-highlight">
+              <div class="bd-highlight d-flex d-flex justify-content-center align-items-center me-4 p-2">End Date</div>
+              <div class="bd-highlight">
+                <mat-form-field appearance="outline" class="inputSearchAdvanced">
+                  <input type="date" matInput formControlName="endDate" />
+                </mat-form-field></div>
+            </div>
+          </div>
+          <div class="bd-highlight">
+            <div class="d-flex flex-row-reverse bd-highlight">
+              <div class="p-2 bd-highlight">
+                <button class="btn btn-primary" (click)="data ? updateClient() : createClient()">
+                  {{btnCreateOrUpdate}}
+                </button>
+              </div>
+              <div class="p-2 bd-highlight">
+                <button class="btn btn-secondary" (click)="close()">
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

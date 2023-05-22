@@ -1,0 +1,25 @@
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.dataSearchAdvanced{
+  border:1px solid;
+  border-radius: 10px;
+  background-color: #A9C9D6;
+  width: 100%;
+}
+
+.inputSearchAdvanced{
+  width: 330px;
+}
+
+@media (max-width: 780px) {
+  .dataSearchAdvanced{
+    overflow: auto;
+    width: 100%;
+  }
+  .inputSearchAdvanced{
+    width: 100%;
+  }
+}

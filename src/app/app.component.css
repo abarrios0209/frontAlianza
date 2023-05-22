@@ -1,0 +1,10 @@
+.marginContent{
+  margin-top: 50px;
+}
+
+
+@media (max-width: 760px) {
+  .marginContent{
+    margin-top: 0px;
+  }
+}
