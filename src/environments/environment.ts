@@ -4,8 +4,7 @@
 
 export const environment = {
   production: false,
-  /* apiUrl: 'http://localhost:8081/clients', */
-  apiUrl:'http://backalianza-production.up.railway.app/clients'
+  apiUrl: 'http://localhost:8081/clients',
 };
 
 /*
